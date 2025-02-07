@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+#page-wrapper{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+header {
+    background: lightseagreen;
+    padding: 1vh 1vw;
+}
+
+.edu-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background: lightblue;
+}
+
+main {
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2%;
+    width: 70%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: lightskyblue;
+    width: 30%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-size: calc(2px + 2vw);
+}
+
+nav li {
+    display: block;
+    text-decoration: none;
+    font-size: calc(2px + 2vw);
+    padding: 2vh 0;
+    margin: 4vh auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+}
+
+main h1 {
+    padding-bottom: 2%;
+}
+
+.education {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+    width: 100%;
+}
+
+.school {
+    font-weight: bold;
+    font-size: calc(5px + 2vh);
+}
+
+.date {
+    display: inline-block;
+}
+
+.edu-image {
+    width: 25%;
+    object-fit: contain;
+}
+
+.edu-content {
+    padding: 2%;
+}
+
+footer {
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: lightseagreen;
+}
+
+footer a {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        text-align: center;
+    }
+
+    .edu-container {
+        width:100%;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: row;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    nav li {
+        font-size: calc(2px + 1.5vw);
+        padding: 1% .5%;
+        margin: 1% .5%;
+    }
+
+    main h1 {
+        text-align: center;
+
+    }
+    .edu-content {
+        padding: 0;
+    }
+
+    .education {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
