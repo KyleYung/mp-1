@@ -50,8 +50,10 @@ nav li {
     display: block;
     text-decoration: none;
     font-size: calc(2px + 2vw);
-    padding: 2vh 0;
+    padding: 2vh 2vh;
+    width: 80%;
     margin: 4vh auto;
+    background: lightseagreen;
 }
 
 nav a {
