@@ -33,7 +33,7 @@ main {
 nav {
     display: flex;
     flex-direction: column;
-    background-color: lightskyblue;
+    background-color: darkcyan;
     width: 30%;
 }
 
@@ -101,7 +101,7 @@ footer {
 
 footer a{
     text-decoration: none;
-    color: lightskyblue;
+    color: white;
 }
 
 .calc-container {
