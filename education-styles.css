@@ -80,7 +80,7 @@ main h1 {
 }
 
 .edu-image {
-    width: 25%;
+    max-width: 25%;
     object-fit: contain;
 }
 
