@@ -104,6 +104,60 @@ footer a{
     color: lightskyblue;
 }
 
+.calc-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+    background: lightblue;
+}
+
+.calc {
+    background: lightcyan;
+    text-align: center;
+    padding: 2%;
+    max-height: 100%;
+}
+
+label {
+    font-size: calc(1px + 2vh);
+}
+
+#first, #second {
+    margin-bottom: 2%;
+}
+
+.calc button {
+    margin: 1%;
+}
+
+.calc input {
+    width: 100%;
+    font-size: calc(2px + 2vh);
+    border-color: aqua;
+}
+
+.calc-buttons button {
+    padding: 2%;
+    font-size: calc(2px + 2vh);
+    border-color: aqua;
+}
+
+.output-container {
+    background: white;
+    border: 2px solid aqua;
+}
+
+#output {
+    padding: 2%;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: center;
+    padding: 1%;
+}
+
 @media screen and (max-width: 900px) {
 
     header {
@@ -151,4 +205,9 @@ footer a{
         display: flex;
         flex-direction: column;
     }
+
+    label {
+        font-size: calc(2px + 2vh);
+    }
+    
 }

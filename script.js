@@ -91,7 +91,7 @@ function power() {
     }
 }
 
-function clear() {
+function reset() {
     document.getElementById("first").value = "";
     document.getElementById("second").value = "";
     document.getElementById("output").innerHTML = "";

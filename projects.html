@@ -5,6 +5,7 @@
         <title>Projects | Resume</title>
     </head>
     <body>
+        <script src="script.js"></script>
         <div id="page-wrapper">
             <header>
                 <h1>Kyle Yung</h1>
@@ -46,14 +47,25 @@
                         </ul>
                     </div>
 
-                    <div class="project">
-                        <p class="title">Javascript Calculator</p>
-                        <p class="role"><a href="calc.html">Link</a></p>
-                        <p class="date">May 2023 - August 2023</p>
-                        <ul class="details">
-                            <li>Designed a calculator in Javascript</li>
-                            <li>capable of calculating addition, subtraction, multiplication, division and power</li>
-                        </ul>
+                    <h3>JavaScript Calculator</h3>
+                    <div id="main-container">
+                        <div class="calc">
+                            <label>First Number:</label>
+                            <input type="text" id="first"></input>
+                            <label>Second Number:</label>
+                            <input type="text" id="second"></input>
+                            <div class="calc-buttons">
+                                <button onclick="addition()">+</button>
+                                <button onclick="subtraction()">-</button>
+                                <button onclick="multiplication()">*</button>
+                                <button onclick="division()">/</button>
+                                <button onclick="power()">**</button>
+                                <button onclick="reset()">Clear</button>
+                            </div>
+                            <div class="output-container">
+                                <p id="output"></p>
+                            </div>
+                        </div>
                     </div>
 
                 </main>
