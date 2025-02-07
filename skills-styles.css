@@ -33,7 +33,7 @@ main {
 nav {
     display: flex;
     flex-direction: column;
-    background-color: darkcyan;;
+    background-color: darkcyan;
     width: 30%;
 }
 
@@ -51,9 +51,7 @@ nav li {
     text-decoration: none;
     font-size: calc(2px + 2vw);
     padding: 2vh 2vh;
-    width: 80%;
     margin: 4vh auto;
-    background: lightseagreen;
 }
 
 nav a {
