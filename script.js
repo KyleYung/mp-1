@@ -79,8 +79,15 @@ function power() {
         output = "Invalid Input";
         document.getElementById("output").innerHTML = output;
     } else {
-        for (let i = 0; i < second; i++) {
-            output = output * first
+        if (second >= 0) {
+            for (let i = 0; i < second; i++) {
+                output = output * first;
+            }
+        } else {
+            for (let i = 0; i < -second; i++) {
+                output = output * first;
+            }
+            output = 1/output;
         }
         document.getElementById("output").innerHTML = String(output);
         if (output < 0) {
